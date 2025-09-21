@@ -1,6 +1,6 @@
 class VehicleRegistry:
     def __init__(self):
-        self.vehicles = {}  # key: number plate, value: dict with owner & model
+        self.vehicles = {}  
 
     def register_vehicle(self, plate: str, owner: str, model: str) -> bool:
         """Register a new vehicle if plate not already used."""
